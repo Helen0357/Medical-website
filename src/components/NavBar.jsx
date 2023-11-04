@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
 import { IconButton } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
 
@@ -21,7 +22,7 @@ return (
                         </div>
                     </div>
                     <div  className='flex items-center gap-8 user-login'>
-                        <button className='flex items-center gap-2 text-sm'><img src='/assets/user.png' />تسجيل الدخول</button>
+                        <Link to='/login' className='flex items-center gap-2 text-sm'><img src='/assets/user.png' />تسجيل الدخول</Link>
                  <div className='flex items-center gap-2 text-sm lang'>
                     <img src='/assets/lang.png' />
                  <details className="dropdown">

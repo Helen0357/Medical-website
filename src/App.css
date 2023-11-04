@@ -709,6 +709,9 @@ footer .social li:hover{
   .advantages .cards{
     flex-wrap: wrap;
   }
+  .login h2{
+    font-size: 22px;
+  }
   .advantages .cards .card{
     flex-basis: 100%;
   }

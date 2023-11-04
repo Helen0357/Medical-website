@@ -32,7 +32,7 @@ return (
   </ul>
 </details>
                  </div>
-                 <ul className='social'>
+                 <ul className='social ssoc'>
                     <li><a><img src='/assets/facebook.png' /></a></li>
                     <li><a><img src='/assets/insta.png' /></a></li>
                     <li><a><img src='/assets/whatsapp.png' /></a></li>
